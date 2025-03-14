@@ -1,0 +1,31 @@
+{
+  "name": "pokemon-battle-game-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r dotenv/config --watch index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WBS-Bootcamp-Repos/pokemon-battle-game-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/WBS-Bootcamp-Repos/pokemon-battle-game-backend/issues"
+  },
+  "homepage": "https://github.com/WBS-Bootcamp-Repos/pokemon-battle-game-backend#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.14.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
