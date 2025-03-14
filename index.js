@@ -39,7 +39,7 @@ app.post('/battle/attack', (req, res) => {
     res.json({ message: 'Attack executed', attacker, defender });
 });
 
-// Start the server
+// Start the server  
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
